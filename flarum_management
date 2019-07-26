@@ -124,6 +124,10 @@ initial_install_nginx_ubuntu-18.10() {
 
 }
 
+initial_install_nginx_ubuntu-18.04() {
+    initial_install_nginx_ubuntu-18.10
+}
+
 initial_install_nginx_ubuntu-16.04() {
 
     webserver_user="www-data"
